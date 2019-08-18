@@ -16,8 +16,8 @@ In this project, you build an app that diplays a scoreboard for an american foot
 
 ## Project Set Up
 
-- [ ] Download project dependencies by running one of these two commands `yarn` or `npm install`
-- [ ] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
+- [x] Download project dependencies by running one of these two commands `yarn` or `npm install`
+- [x] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
 
 ## Minimum Viable Product
 

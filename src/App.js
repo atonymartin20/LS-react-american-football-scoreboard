@@ -33,10 +33,12 @@ function App() {
           {/* TODO STEP 4 - Now we need to attach our state setter functions to click listeners. */}
           <button className="homeButtons__touchdown" onClick={() => increaseHome(homeScore + 7)}>Home Touchdown</button>
           <button className="homeButtons__fieldGoal" onClick={() => increaseHome(homeScore + 3)}>Home Field Goal</button>
+          <button className="homeButton" onClick={() => increaseHome(0)}>Reset Home Score</button>
         </div>
         <div className="awayButtons">
           <button className="awayButtons__touchdown" onClick={() => increaseAway(awayScore + 7)}>Away Touchdown</button>
           <button className="awayButtons__fieldGoal" onClick={() => increaseAway(awayScore + 3)}>Away Field Goal</button>
+          <button className="awayButton" onClick={() => increaseAway(0)}>Reset Away Score</button>
         </div>
       </section>
     </div>

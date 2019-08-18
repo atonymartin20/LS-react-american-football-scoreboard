@@ -114,6 +114,7 @@
 }
 
 .homeButtons__touchdown,
+.homeButton, .awayButton,
 .homeButtons__fieldGoal,
 .awayButtons__touchdown,
 .awayButtons__fieldGoal {
