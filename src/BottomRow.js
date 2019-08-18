@@ -35,10 +35,10 @@ const BottomRow = () => {
         </div>
       </div>
       <div className="buttons">
-      <button className="homeButtons__fieldGoal" onClick={() => changeDown(downs + 1)}>Next Down</button>
-      <button className="homeButtons__fieldGoal" onClick={() => changeToGo(ballLocation + 1)}>Negative Yardage</button>
-      <button className="homeButtons__fieldGoal" onClick={() => changeToGo(ballLocation - 1)}>Positive Yardage</button>
-      <button className="homeButtons__fieldGoal" onClick={() => changeQuarter(quarter + 1)}>Change Quarter</button>
+      <button className="bottomRowButtons" onClick={() => changeDown(downs + 1)}>Next Down</button>
+      <button className="bottomRowButtons" onClick={() => changeToGo(ballLocation + 1)}>Negative Yardage</button>
+      <button className="bottomRowButtons" onClick={() => changeToGo(ballLocation - 1)}>Positive Yardage</button>
+      <button className="bottomRowButtons" onClick={() => changeQuarter(quarter + 1)}>Change Quarter</button>
 
       </div>
     </div>
