@@ -14,6 +14,7 @@ const BottomRow = () => {
       num += 1;
     }
   }
+  
   return (
     <div>
       <div className="bottomRow">
