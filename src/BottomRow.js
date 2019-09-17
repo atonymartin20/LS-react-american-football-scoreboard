@@ -14,7 +14,7 @@ const BottomRow = () => {
       num += 1;
     }
   }
-  // Commit 4 9/14/19
+  // Commit 1 9/16/19
   return (
     <div>
       <div className="bottomRow">
